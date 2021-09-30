@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    /* color: rgb(5, 70, 5); ?Choose color to use */
+    text-align:center;
+}
+
+h1 {
+    text-size-adjust: 36px;
+}
+
+.title-underline {
+    width: 52px;
+    height: 3px;
+    background-color: #497e76; /*still need to style*/
+    margin: 0 auto;
+}
+
+/*----Navagation----*/ /*?Need to fix nav to the top*/
+.navbar {
+    font-weight: 700;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+} 
+.nav{
+    margin-left: auto;
+}
+
+.navbar-light .nav .nav-link{
+    color:white; /*?choose color for nav buttons*/
+    
+}
+
+.navbar-light .nav .nav-link.active,
+.navbar-light .nav .nav-link:hover{
+ color: #497e76; /*?Nav button colors when hoovered*/
+}
+
+
+/**Landing page CSS */
+.landing {
+    background-size: 50%; /*?background not coming through*/
+}
+.landingPageCaption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;   
+}
+.landingPageCaption h1 {
+    font-size: 66px;
+    text-shadow: .1rem .1rem .8rem black; /*?style Ethan Collignon here*/
+    color:white
+}
+.landingPageCaption h3 {
+    font-size: 44px;
+    text-shadow: .1rem .1rem .8rem black; /*?style WebDev here*/
+    color:white
+}
+
+/**About Me section*/
+
+.aboutMeContainer {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.aboutMeContainer h1 {
+    font-size: 50px;
+}
+
+.aboutMe {
+    font-size: 28px;
+}
+
+
+/**Skills section*/
+.skillsIconContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+}
+
+/**Portfolio section  */
+.img-thumbnail {
+    width: 30%;
+    height: auto;
+    display: block;
+}
+
+.portfolioContainer {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.portfolioContainer h1 {
+    font-size: 50px;
+}
+
+.rowOne {
+    display: flex;
+    /* align-items: baseline; */
+}
+
+.rowTwo {
+    display: flex;
+    /* align-items: baseline; */
+}
+
+
+/**Contact section*/
+.contactForm {
+    display: inline-block;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+
+
+
+/**Footer section*/
+/* .footerContainer { */
+    /* padding-top: 300px; */
+    /* padding-bottom: 300px;  */
+/* } */
+
+.copyright {
+    font-size: 10px;
+}
