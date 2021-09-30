@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ethan's Portfolio</title>
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">  
 </head>
 <script src="https://kit.fontawesome.com/05afca965b.js" crossorigin="anonymous"></script>
 <body style="background-color: rgb(215, 211, 207);" data-bs-spy="scroll" data-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
@@ -16,29 +16,31 @@
 <div id="scrollspyHeading1">
 
   <!--Nav section start-->
-  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-      <a class="navbar-brand" href="#">Ethan Collignon</a>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-example2"> -->
-        <span class="navbar-toggler-icon"></span>
-      </button>        <!--is supposed to make button collapse when page gets smaller. Code looks like the youtube example but seems to break-->
-    <div  id="navbar-example2">     <!--Coded out (class="collapse navbar-collapse") was making nav bar disappear when page was smaller-->
-      <ul class="nav nav-pills ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading3">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading4">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading5">Contact Me</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-light bg-light px-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ethan Collignon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-example2" aria-controls="navbar-example2" aria-expanded="false" aria-label="Togglenavigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>        <!--is supposed to make button collapse when page gets smaller. Code looks like the youtube example but seems to break-->
+      <div class="collapse navbar-collapse" id="navbar-example2">     <!--Coded out (class="collapse navbar-collapse") was making nav bar disappear when page was smaller-->
+       <ul class="nav nav-pills ml-auto">
+          <li class="nav-item">
+           <a class="nav-link" href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#scrollspyHeading2">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#scrollspyHeading4">Portfolio</a>
+         </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#scrollspyHeading5">Contact Me</a>
+         </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </div>
@@ -46,13 +48,13 @@
 
 <!--Start Landing Page section-->
 <div class="landing">
-  <img src="./assets/PXL_20210702_173817997.MP.jpg" class="img-fluid" alt="...">
+  <img src="./assets/20210702_154034.jpeg" class="img-fluid" alt="...">
   
-</div>
-
-<div class="landingPageCaption text-center">
-  <h1>Ethan Collignon</h1>
-  <h3>Web Developer</h3>
+  <div class="landingPageCaption text-center">
+    <h1>Ethan Collignon</h1>
+    <h3>Web Developer</h3>
+  </div>
+  
 </div>
 <!--End Landing Page section-->
 
@@ -247,6 +249,6 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
