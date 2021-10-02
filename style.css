@@ -9,10 +9,6 @@ body {
     background-size: 100% 50%; */
 }
 
-/* h1 {
-    text-size-adjust: 36px;
-} */
-
 .title-underline {
     width: 52px;
     height: 3px;
@@ -20,11 +16,13 @@ body {
     margin: 0 auto;
 }
 
+
 /*----Navagation----*/ /*?Need to fix nav to the top*/
 .navbar {
     font-weight: 700;
     letter-spacing: .1rem;
-    background: rgba(121, 160, 103, 0.9)
+    background: rgba(121, 160, 103, 0.9);
+    position: fixed;  /*?When i fixed this. It collapsed*/
 } 
 
 .nav-link{
@@ -32,7 +30,7 @@ body {
     
 }
  .navbar-brand {
-     color: rgb(21, 67, 28);
+     color: rgb(252, 252, 252);
  }
 
 .navbar-light .nav .nav-link.active,
@@ -45,6 +43,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
 } */
+
 
 /**Landing page CSS */
 .landingPageCaption {
@@ -65,8 +64,8 @@ body {
     color:white
 }
 
-/**About Me section*/
 
+/**About Me section*/
 .aboutMeContainer {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -88,12 +87,13 @@ body {
     font-size: 42px;
 }
 
+
 /**Portfolio section  */
-.img-thumbnail {
+/* .img-thumbnail {
     width: 30%;
     height: auto;
     display: block;
-}
+} */
 
 .portfolioContainer {
     padding-top: 100px;
@@ -105,13 +105,80 @@ body {
 }
 
 .rowOne {
-    display: flex;
-    /* align-items: baseline; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rowTwo {
-    display: flex;
-    /* align-items: baseline; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnail1 {
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: inline-block; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    border: 4px solid #497e76;
+    border-radius: 5%;
+    
+}
+
+.thumbnail2{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: inline-block; 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 4px solid #497e76;
+    border-radius: 5%;
+}
+
+.thumbnail3{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    border: 4px solid #497e76;
+    border-radius: 5%;
+}
+
+.thumbnail4{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    border: 4px solid #497e76;
+    border-radius: 5%;
+}
+
+.thumbnail5{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    border: 4px solid #497e76;
+    border-radius: 5%;
 }
 
 
@@ -124,7 +191,9 @@ body {
     font-size: 50px;
 }
 
-
+#full-name :-moz-placeholder{
+    text-align: center;
+}
 
 
 /**Footer section*/

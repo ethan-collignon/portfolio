@@ -20,7 +20,5 @@ google fonts can help pick different fonts
 SprintList
 -Fix Nav bar. Needs centered and fixed to page and styled
 -improve skills section. Center everything better. Larger images
--portfolio section. Add real thumbnails images and links
--Contact me section. Needs form list. Resume link.(update Resume as well)
--build footer. Linked in/git hub link
 -Overall style
+-write about me
