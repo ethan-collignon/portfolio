@@ -82,9 +82,36 @@ body {
 
 /**Skills section*/
 .skillsIconContainer {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 42px;
+}
+ .icon1 {
+     display: inline-block;
+     margin-right: 30px;
+ }
+
+ .icon2 {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.icon3 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.icon4 {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.icon5 {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 
@@ -105,35 +132,36 @@ body {
 }
 
 .rowOne {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .rowTwo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .thumbnail1 {
     background-color: black;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     display: inline-block; 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 25px;
     border: 4px solid #497e76;
-    border-radius: 5%;
-    
+    border-radius: 5%;  
 }
 
 .thumbnail2{
     background-color: black;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     display: inline-block; 
     background-size: cover; 
     background-position: center center;
@@ -144,8 +172,8 @@ body {
 
 .thumbnail3{
     background-color: black;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     display: inline-block;
     background-size: cover; 
     background-position: center center;
@@ -157,10 +185,10 @@ body {
 
 .thumbnail4{
     background-color: black;
-    width: 400px;
-    height: 300px;
-    display: inline-block; /* makes it fit in like an <img> */
-    background-size: cover; /* or contain */
+    width: 300px;
+    height: 200px;
+    display: inline-block; 
+    background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 12px;
@@ -170,15 +198,45 @@ body {
 
 .thumbnail5{
     background-color: black;
-    width: 400px;
-    height: 300px;
-    display: inline-block; /* makes it fit in like an <img> */
-    background-size: cover; /* or contain */
+    width: 300px;
+    height: 200px;
+    display: inline-block; 
+    background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
     margin-left: 12px;
     border: 4px solid #497e76;
     border-radius: 5%;
+}
+
+.thumbnail1:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.thumbnail2:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.thumbnail3:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.thumbnail4:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.thumbnail5:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -197,10 +255,11 @@ body {
 
 
 /**Footer section*/
-/* .footerContainer { */
-    /* padding-top: 300px; */
-    /* padding-bottom: 300px;  */
-/* } */
+.resumeButton:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 .copyright {
     font-size: 10px;
