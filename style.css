@@ -4,9 +4,6 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     text-align:center;
-    /* background: url(./assets/PXL_20210702_173817997.MP.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 50%; */
 }
 
 .title-underline {
@@ -16,34 +13,31 @@ body {
     margin: 0 auto;
 }
 
-
 /*----Navagation----*/ /*?Need to fix nav to the top*/
 .navbar {
     font-weight: 700;
     letter-spacing: .1rem;
     background: rgba(121, 160, 103, 0.9);
-    position: fixed;  /*?When i fixed this. It collapsed*/
+    z-index: 2;
+    position: fixed;
+    height: 80px;
+    /* width: 450px; */
+    border-radius: 8px;
+      /*?When i fixed this. It collapsed*/
 } 
-
 .nav-link{
     color:rgb(254, 237, 212);
     
 }
  .navbar-brand {
      color: rgb(252, 252, 252);
+     padding-top: 25px; 
  }
 
 .navbar-light .nav .nav-link.active,
 .navbar-light .nav .nav-link:hover{
  color: #497e76; /*?Nav button colors when hoovered*/
 }
-
-/* #navbar-example2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-} */
-
 
 /**Landing page CSS */
 .landingPageCaption {
@@ -55,15 +49,18 @@ body {
 }
 .landingPageCaption h1 {
     font-size: 66px;
-    text-shadow: .1rem .1rem .8rem black; /*?style Ethan Collignon here*/
-    color:white
+    text-shadow: .4rem .4rem .9rem black; /*?style Ethan Collignon here*/
+    color: ivory
 }
 .landingPageCaption h3 {
     font-size: 44px;
     text-shadow: .1rem .1rem .8rem black; /*?style WebDev here*/
-    color:white
+    color: ivory
 }
-
+img {
+    opacity: 0.75;
+    /* background-color: rgba(121, 160, 103, 0.2); */  
+}
 
 /**About Me section*/
 .aboutMeContainer {
@@ -78,7 +75,6 @@ body {
 .aboutMe {
     font-size: 28px;
 }
-
 
 /**Skills section*/
 .skillsIconContainer {
@@ -116,12 +112,6 @@ body {
 
 
 /**Portfolio section  */
-/* .img-thumbnail {
-    width: 30%;
-    height: auto;
-    display: block;
-} */
-
 .portfolioContainer {
     padding-top: 100px;
     padding-bottom: 200px;
@@ -141,8 +131,6 @@ body {
 .rowTwo {
     display: flex;
     justify-content: center;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
 
 .thumbnail1 {
@@ -261,6 +249,9 @@ body {
     transform: scale(1.1);
 }
 
+a:link {
+    color: #497e76;
+}
 .copyright {
     font-size: 10px;
 }

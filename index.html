@@ -14,43 +14,42 @@
    
 
 <!-- Home page start -->
-<div id="scrollspyHeading1">
 
-  <!--Nav section start-->
-  <nav class="navbar navbar-light bg-light px-3">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Ethan Collignon</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-example2" aria-controls="navbar-example2" aria-expanded="false" aria-label="Togglenavigation">
-         <span class="navbar-toggler-icon"></span>
-        </button>        <!--is supposed to make button collapse when page gets smaller. Code looks like the youtube example but seems to break-->
-      <div class="collapse navbar-collapse" id="navbar-example2">     <!--Coded out (class="collapse navbar-collapse") was making nav bar disappear when page was smaller-->
-       <ul class="nav nav-pills ml-auto">
-          <li class="nav-item">
-           <a class="nav-link" href="#scrollspyHeading1">Home</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="#scrollspyHeading2">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading3">Skills</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="#scrollspyHeading4">Portfolio</a>
+<!--Nav section start-->
+<nav class="navbar navbar-light bg-light">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="https://ethan-collignon.github.io/portfolio/">Ethan Collignon</a>
+       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+       </button>        is supposed to make button collapse when page gets smaller. Code looks like the youtube example but seems to break -->
+    <!-- <div class="collapse navbar-collapse" id="navbarNav">     Coded out (class="collapse navbar-collapse") was making nav bar disappear when page was smaller -->
+     <ul class="nav nav-pills ml-auto">
+        <li class="nav-item">
+         <a class="nav-link" href="#scrollspyHeading1">Home</a>
          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="#scrollspyHeading5">Contact Me</a>
+         <li class="nav-item">
+         <a class="nav-link" href="#scrollspyHeading2">About Me</a>
          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-  <!-- Nav section end -->
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#scrollspyHeading4">Portfolio</a>
+       </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#scrollspyHeading5">Contact Me</a>
+       </li>
+      </ul>
+     </div>
+  </div>
+</nav>
+<!-- Nav section end -->
 
 <!--Start Landing Page section-->
-<div class="landing">
-  <img src="./assets/20210702_154034.jpeg" class="img-fluid" alt="...">
-  
+<div id="scrollspyHeading1">
+  <div class="imgContainer">
+    <img src="./assets/20210702_154034.jpeg" class="img-fluid" alt="...">
+  </div>
   <div class="landingPageCaption text-center">
     <h1>Ethan Collignon</h1>
     <h3>Web Developer</h3>
@@ -141,7 +140,7 @@
       <br>
     <div class="rowOne">
       <div class="col-xs-8">
-        <h3>Css Creature</h3>
+        <h3>CSS Creature</h3>
         <a href="https://codepen.io/ethan-collignon/pen/LYLjNzK" target="_blank">
           <div class="thumbnail1" style="background-image: url(./assets/CSSCreature.jpg);"></div>
         </a>
@@ -167,18 +166,25 @@
     <div class="rowTwo">
 
       <div class="col-xs-8">
-        <h3>JavaScript Grocery Store</h3>
-        <a href="https://github.com/ethan-collignon/Repl6" target="_blank">
-          <div class="thumbnail4" style="background-image: url(./assets/GroceryStore.jpg);"></div>
+        <h3>API Weather Site</h3>
+        <a href="https://github.com/ethan-collignon/API2" target="_blank">
+          <div class="thumbnail5" style="background-image: url(./assets/API2.jpg);"></div> 
         </a>
       </div>
 
       <div class="col-xs-8">
-        <h3>API2</h3>
-        <a href="https://github.com/ethan-collignon/API2" target="_blank">
-          <div class="thumbnail5" style="background-image: url(./assets/test.png);"></div> 
+        <h3>Blue Badge Project</h3>
+        <!-- <a href="https://github.com/ethan-collignon/BlueBadge" target="_blank"> -->
+          <div class="thumbnail5" style="background-image: url(./assets/badges-webdev_blue.png);"></div> 
         </a>
-    </div>
+      </div>
+
+      <div class="col-xs-8">
+        <h3>Red Badge Project</h3>
+        <!-- <a href="https://github.com/ethan-collignon/RedBadge" target="_blank"> -->
+          <div class="thumbnail5" style="background-image: url(./assets/WD_Red_badge.png);"></div> 
+        </a>
+      </div>
   </div>  
 </div>
 <!-- portfolio section end -->
@@ -231,16 +237,16 @@
     <h3>Want to know more?</h3>
     <br>
     <div class="resumeButton">
-      <button type="button" class="btn btn-outline-secondary"><a href="./assets/Ethan Collignon Resume.docx.pdf" download="='newfilename">Download my Resume!</a></button>
+      <button  type="button" class="btn btn-outline-secondary"><a href="./assets/Ethan Collignon Resume.docx.pdf" download="EthanCollignonResume">Download my Resume!</a></button>
     </div>
     <br>
     <br>
     <div id="footerIconContainer">
       <a href=https://github.com/ethan-collignon>
-        <i style="font-size: 32px;" class="fab fa-github"></i>
+        <i style="font-size: 32px; color: #497e76;" class="fab fa-github"></i>
       </a>
       <a href=https://www.linkedin.com/in/ethancollignon>
-        <i style="font-size: 32px;" class="fab fa-linkedin"></i>
+        <i style="font-size: 32px; color: #497e76;" class="fab fa-linkedin"></i>
       </a>
     </div>
   </div>

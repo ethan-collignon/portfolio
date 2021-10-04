@@ -18,6 +18,5 @@ google fonts can help pick different fonts
 
 
 SprintList
--Fix Nav bar. Needs centered and fixed to page and styled
+-Fix Nav bar. Doesnt collapse.
 -write about me
--make project section responsive
