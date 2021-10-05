@@ -18,5 +18,4 @@ google fonts can help pick different fonts
 
 
 SprintList
--Fix Nav bar. Doesnt collapse.
--write about me
+

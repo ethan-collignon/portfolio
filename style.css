@@ -107,6 +107,22 @@ img {
     margin-left: 25px;
 }
 
+.icon1:hover{
+    color: #497e76;
+}
+.icon2:hover{
+    color: #497e76;
+}
+.icon3:hover{
+    color: #497e76;
+}
+.icon4:hover{
+    color: #497e76;
+}
+.icon5:hover{
+    color: #497e76;
+}
+
 
 /**Portfolio section  */
 .portfolioContainer {
