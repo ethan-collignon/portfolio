@@ -61,8 +61,8 @@ img {
 
 /**About Me section*/
 .aboutMeContainer {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .aboutMeContainer h1 {
@@ -126,8 +126,8 @@ img {
 
 /**Portfolio section  */
 .portfolioContainer {
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 25px;
+    padding-bottom: 150px;
 }
 
 .portfolioContainer h1 {
